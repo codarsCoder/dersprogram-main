@@ -1,0 +1,68 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+
+
+.chip-link {
+ text-decoration: none !important;
+ color:white
+}
+
+.isletme-card .MuiDataGrid-root .MuiDataGrid-row:nth-child(even) {
+  background-color: #f5f5f5;
+}
+.isletme-card .MuiDataGrid-toolbarContainer {
+  background-color: #f5f5f5;
+}
+
+.schedule-table td {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+.sil-button {
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.sil-button:hover  {
+  transform: scale(1.1);
+  color: red;
+
+}
+
+.add-button {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.add-button:hover  {
+  transform: scale(1.1);
+  background-color: red;
+
+}
